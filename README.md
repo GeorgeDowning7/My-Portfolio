@@ -1,2 +1,15 @@
-# My-Portfolio
-My portfolio of the major coding projects I have worked on
+
+# My Portfolio
+This repository contains my two final projects I worked on during my degree. The first was focused on digital inequalities with the UK, and the second was about the use of CNNs to identify tree species.
+
+## Digital Inequalities within the UK
+This was a mixture of a guided and self-directed investigation into Ofcom datasets containing 5000 rows on broadband and mobile network coverage within the UK. The aim was to carry out analysis on them to find notable and interesting points. I previewed and initially cleaned the datasets using OpenRefine before finishing this using python. This required updating the data from outdated local authorities into their new ones by aggregating the values for them. I also had to decide what to do with any missing data and chose to remove them from the dataset as the dataset was large enough to still draw accurate conclusions. Finally, I chose which columns would provide the most valuable information and allow for clear and precise analysis. This required thinking of what questions I wanted to ask of the data, and which columns would best answer those enquiries.
+After cleaning the data, I used various graphs, geoplots and cluster plots, using python, to look for interesting and notable features in the data which I could then focus on in my report. Most of this was done using aggregation pipelines to create small subsets of the overall dataset, allowing for the creation of these visuals. For the cluster analysis, I considered the silhouette plots to determine the best number of clusters to represent the data, as well a using Pearson’s R test to assess the strength of any relationships. 
+The final output was a report on my findings, including an executive summary for an audience with minimal data analytics knowledge where my key insights were addressed as long with the basic method and approach. The bulk of the report focused on a detailed explanation of my process, findings and conclusions as well as a consideration of the legal and ethical issues of using the datasets and areas for improvement with further data and detailed analysis.
+
+## Investigation into using Machine Learning for Tree Species Identification
+This project was a partly guided analysis into the use of CNNs to analyse tree species. The preprocessing of the data was guided, and the independent work was to assess the effectiveness of CNNs in this area, as well as finding which methods have the greatest impact on the performance of these models. This included testing a baseline model and then changing various parameters of the models independently to compare performance. For example, the impact of the number of filters, layers and learning rate. I also investigated whether data augmentation could improve the performance of the models by testing them all on regular and augmented data. The deliverable was in report form summarising my processes and findings, providing a critical review of my approach and clear evidence and summaries of each model. The report also included considerations into the wider implications of using these models, how these models might be useful and steps to take to further investigation.
+
+
+
+
